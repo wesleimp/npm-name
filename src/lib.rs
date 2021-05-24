@@ -22,8 +22,8 @@ pub fn get(name: &str) -> Result<Availability, Error> {
   let url = Url::parse(&addr)?;
   let res = reqwest::get(url)?;
   let status = match res.status() {
-    StatusCode::OK => Availability::Available,
-    StatusCode::NOT_FOUND => Availability::Unavailable,
+    StatusCode::OK => Availability::Unavailable,
+    StatusCode::NOT_FOUND => Availability::Available,
     _ => Availability::Unknown,
   };
   Ok(status)

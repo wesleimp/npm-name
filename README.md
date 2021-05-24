@@ -1,4 +1,4 @@
-# cargo-name
+# npm-name
 
 Check whether a package name is available on npmjs.com.
 

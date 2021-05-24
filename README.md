@@ -23,21 +23,6 @@ ARGS:
 
 ## Installation
 
-There are several ways to install `npm-name`. Choose a more convenient option for you.
-
-### Pre-compiled binary
-
-```sh
-# Linux / macOS / Windows (MINGW and etc). Installs it into ./bin/ by default
-$ curl -sSfL https://raw.githubusercontent.com/wesleimp/npm-name/master/scripts/install.sh | sh -s
-
-# Specify installation directory and version
-$ curl -sSfL https://raw.githubusercontent.com/wesleimp/npm-name/master/scripts/install.sh | sh -s -- -b usr/local/bin v0.1.0
-
-# Alpine Linux (wget)
-$ wget -q -O - https://raw.githubusercontent.com/wesleimp/npm-name/master/scripts/install.sh | sh -s
-```
-
 ### Cargo
 
 If you are a Rust programmer, you can install `npm-name` via `cargo`:
